@@ -4,8 +4,13 @@
 <head> 标签用于定义文档的头部，它是所有头部元素的容器。头部元素有<title>、<script>、 <style>、<link>、 <meta>等标签
 <title>标签：在<title>和</title>标签之间的文字内容是网页的标题信息，它会出现在浏览器的标题栏中。
 <style>标签：定义css样式
+    
 <link>标签：链接外部文档
+    rel属性： 如 "stylesheet"
 <meta>标签：html文档的设置
+    charset属性：编码格式 如 utf-8
+    http-equiv属性：如 "X-UA-Compatible" 
+    content属性：如 "IE=edge"
 
 <p>标签：<p>段落文本</p>
   <em>需要强调的文本</em> 
